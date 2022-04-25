@@ -65,6 +65,7 @@
     background: rgb(24, 223, 123)
 }
 
+
 .img-prin {
     display: block;
     justify-content: center;
@@ -73,6 +74,10 @@
     height: auto;
     width: auto;
 }
+
+.FOTO-PRINCIPAL:hover .img-prin {-webkit-transform:scale(1.1);transform:scale(1.1);}
+
+.FOTO-PRINCIPAL {overflow:hidden;}
 
 .TERRAZA-VERDE {
     background-color: rgb(160, 226, 160) ;
@@ -89,6 +94,10 @@
     display: flex;
     justify-content: center;
 }
+
+.TERRAZA-VERDE:hover .terraza {-webkit-transform:scale(1.1);transform:scale(1.1);}
+
+.TERRAZA-VERDE {overflow:hidden;}
 
 .subtitulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
